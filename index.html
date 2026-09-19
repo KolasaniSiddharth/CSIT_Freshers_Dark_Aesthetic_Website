@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#07070a" />
+  <title>FRESHERS '26 — CSIT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="particles"></canvas>
+  <div class="grain"></div>
+  <div class="cursor-glow"></div>
+
+  <header class="nav">
+    <div class="brand"><span>CSIT</span><i></i> FRESHERS '26</div>
+    <button class="nav-btn" onclick="document.querySelector('#invite').scrollIntoView({behavior:'smooth'})">INVITATION ↘</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-orbit orbit-a"></div>
+      <div class="hero-orbit orbit-b"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">DEPARTMENT OF COMPUTER SCIENCE & INFORMATION TECHNOLOGY</p>
+        <div class="micro">A NEW BEGINNING · A LIFETIME OF MEMORIES</div>
+        <h1><span>WELCOME</span><em>FRESHERS</em></h1>
+        <p class="hero-sub">The next chapter starts here.</p>
+        <div class="hero-meta">
+          <span>CSIT</span><b>×</b><span>2026</span><b>×</b><span>ONE NOON</span>
+        </div>
+        <div class="actions">
+          <button class="primary" onclick="document.querySelector('#invite').scrollIntoView({behavior:'smooth'})">VIEW INVITE ↘</button>
+        </div>
+      </div>
+      <div class="scroll-mark">SCROLL TO DISCOVER <span>↓</span></div>
+    </section>
+
+    <section class="statement">
+      <div class="section-no">01 / THE BEGINNING</div>
+      <div class="statement-grid reveal">
+        <p class="giant">YOUR<br><em>STORY</em><br>STARTS<br>NOW.</p>
+        <div class="statement-copy">
+          <p class="kicker">TO OUR BELOVED JUNIORS</p>
+          <p>You've stepped into a new world. New faces. New classrooms. New memories waiting to happen.</p>
+          <p>So we're not just inviting you to a party — we're opening the door to your first chapter with CSIT.</p>
+          <div class="line"></div>
+          <p class="small">COME READY. LEAVE WITH A STORY.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="invite" class="invite-section">
+      <div class="section-no">02 / THE INVITATION</div>
+      <div class="invite-layout reveal">
+        <div class="invite-frame">
+          <div class="frame-label">OFFICIAL INVITATION</div>
+          <img src="assets/invitation.jpeg" alt="CSIT Freshers Party invitation" />
+        </div>
+        <div class="invite-side">
+          <p class="kicker">YOU ARE CORDIALLY INVITED</p>
+          <h2>FRESHERS'<br><em>PARTY</em></h2>
+          <p class="serif">A new beginning, a lifetime of memories.</p>
+          <div class="details">
+            <div><span>DATE</span><strong>[ DATE ]</strong></div>
+            <div><span>TIME</span><strong>[ TIME ]</strong></div>
+            <div><span>VENUE</span><strong>[ VENUE ]</strong></div>
+          </div>
+          <p class="note">Your gracious presence and blessings will make this occasion even more memorable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="section-no">03 / THE NOON</div>
+      <div class="experience-title reveal">
+        <p class="kicker">WHAT'S WAITING</p>
+        <h2>LIGHTS. MUSIC.<br><em>MEMORIES.</em></h2>
+      </div>
+      <div class="tiles">
+        <article class="tile reveal"><span>01</span><h3>MEET</h3><p>New people. New friendships. Your CSIT family begins here.</p></article>
+        <article class="tile reveal"><span>02</span><h3>MOVE</h3><p>Music, energy and a noon designed to get everyone involved.</p></article>
+        <article class="tile reveal"><span>03</span><h3>MAKE</h3><p>Moments you'll still talk about when final year arrives.</p></article>
+      </div>
+    </section>
+
+    <section class="final">
+      <div class="final-ring"></div>
+      <div class="reveal">
+        <p class="kicker">THE INVITATION IS OPEN</p>
+        <h2>SEE YOU<br><em>THERE.</em></h2>
+        <p class="final-sign">WITH WARM REGARDS<br><strong>THE STUDENTS OF CSIT</strong></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>CSIT · FRESHERS '26</span>
+    <span>THE FIRST CHAPTER</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
