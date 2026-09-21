@@ -11,6 +11,10 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="page-loader" aria-hidden="true">
+    <div class="loader-mark"><span>CSIT</span><i></i><span>FRESHERS '26</span></div>
+    <div class="loader-line"><b></b></div>
+  </div>
   <canvas id="particles"></canvas>
   <div class="grain"></div>
   <div class="cursor-glow"></div>
@@ -30,10 +34,10 @@
         <h1><span>WELCOME</span><em>FRESHERS</em></h1>
         <p class="hero-sub">The next chapter starts here.</p>
         <div class="hero-meta">
-          <span>CSIT</span><b>×</b><span>2026</span><b>×</b><span>ONE NOON</span>
+          <span>CSIT</span><b>×</b><span>2026</span><b>×</b><span>1 PM - 4 PM</span>
         </div>
         <div class="actions">
-          <button class="primary" onclick="document.querySelector('#invite').scrollIntoView({behavior:'smooth'})">VIEW INVITE ↘</button>
+          <button class="primary magnetic" onclick="document.querySelector('#invite').scrollIntoView({behavior:'smooth'})">VIEW INVITE ↘</button>
         </div>
       </div>
       <div class="scroll-mark">SCROLL TO DISCOVER <span>↓</span></div>
@@ -58,16 +62,16 @@
       <div class="invite-layout reveal">
         <div class="invite-frame">
           <div class="frame-label">OFFICIAL INVITATION</div>
-          <img src="assets/invitation.jpeg" alt="CSIT Freshers Party invitation" />
+          <img src="freshers.jpeg" alt="Official CSIT Freshers Party invitation for 26 September 2026" />
         </div>
         <div class="invite-side">
           <p class="kicker">YOU ARE CORDIALLY INVITED</p>
           <h2>FRESHERS'<br><em>PARTY</em></h2>
           <p class="serif">A new beginning, a lifetime of memories.</p>
           <div class="details">
-            <div><span>DATE</span><strong>[ DATE ]</strong></div>
-            <div><span>TIME</span><strong>[ TIME ]</strong></div>
-            <div><span>VENUE</span><strong>[ VENUE ]</strong></div>
+            <div><span>DATE</span><strong>26 SEPTEMBER 2026</strong></div>
+            <div><span>TIME</span><strong>1 PM - 4 PM</strong></div>
+            <div><span>VENUE</span><strong>SEMINAR HALL</strong></div>
           </div>
           <p class="note">Your gracious presence and blessings will make this occasion even more memorable.</p>
         </div>
@@ -75,14 +79,14 @@
     </section>
 
     <section class="experience">
-      <div class="section-no">03 / THE NOON</div>
+      <div class="section-no">03 / THE AFTERNOON</div>
       <div class="experience-title reveal">
         <p class="kicker">WHAT'S WAITING</p>
         <h2>LIGHTS. MUSIC.<br><em>MEMORIES.</em></h2>
       </div>
       <div class="tiles">
         <article class="tile reveal"><span>01</span><h3>MEET</h3><p>New people. New friendships. Your CSIT family begins here.</p></article>
-        <article class="tile reveal"><span>02</span><h3>MOVE</h3><p>Music, energy and a noon designed to get everyone involved.</p></article>
+        <article class="tile reveal"><span>02</span><h3>MOVE</h3><p>Music, energy and an afternoon designed to get everyone involved.</p></article>
         <article class="tile reveal"><span>03</span><h3>MAKE</h3><p>Moments you'll still talk about when final year arrives.</p></article>
       </div>
     </section>
@@ -99,6 +103,7 @@
 
   <footer>
     <span>CSIT · FRESHERS '26</span>
+    <span>26 SEPTEMBER 2026 · SEMINAR HALL</span>
     <span>THE FIRST CHAPTER</span>
   </footer>
 

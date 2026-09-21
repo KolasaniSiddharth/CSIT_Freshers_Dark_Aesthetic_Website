@@ -3,7 +3,7 @@
 ## Quick start
 1. Keep the folder structure unchanged.
 2. Open `index.html` in a browser.
-3. Replace `[ DATE ]`, `[ TIME ]`, and `[ VENUE ]` in `index.html`.
+3. The invitation details are already set to 26 September 2026, 1 PM - 4 PM, Seminar Hall.
 
 ## For your college presentation
 - Put this website on the projector/full-screen browser.
