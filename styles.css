@@ -1,5 +1,5 @@
 *{box-sizing:border-box;margin:0;padding:0}
-:root{--bg:#07070a;--panel:#101015;--text:#f2eee8;--muted:#9a9690;--accent:#c88b9d;--line:rgba(255,255,255,.12)}
+:root{--bg:#05060a;--panel:#0a1020;--text:#f2f7ff;--muted:#8d9bb4;--accent:#247cff;--line:rgba(102,154,255,.18)}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}
 body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 15%,rgba(177,93,121,.11),transparent 30%),radial-gradient(circle at 80% 75%,rgba(255,255,255,.04),transparent 25%);z-index:-2}
@@ -25,3 +25,28 @@ footer{border-top:1px solid var(--line);display:flex;justify-content:space-betwe
 @media(max-width:800px){footer{flex-wrap:wrap;gap:14px 24px;line-height:1.5}footer span:nth-child(2){order:3;width:100%}}
 .micro{margin-bottom:26px}
 @media(max-width:800px){.micro{margin-bottom:17px}}
+
+/* Cinematic black and electric-blue presentation; gold stays exclusive to the official artwork. */
+body:before{background:radial-gradient(circle at 50% 10%,rgba(24,104,255,.25),transparent 32%),radial-gradient(circle at 12% 72%,rgba(0,184,255,.09),transparent 24%),linear-gradient(180deg,#05060a 0%,#070d1d 100%)}
+.page-loader{background:#05060a}.page-loader:after{border-color:rgba(36,124,255,.3);box-shadow:0 0 70px rgba(36,124,255,.16)}.loader-mark{color:#f2f7ff}.loader-line{background:rgba(139,184,255,.22)}
+.cursor-glow{background:radial-gradient(circle,rgba(36,124,255,.15),transparent 65%)}
+.nav{border-bottom-color:rgba(79,142,255,.24);background:rgba(5,6,10,.78);box-shadow:0 10px 35px rgba(0,0,0,.18)}.nav-btn{border-color:rgba(73,141,255,.72);color:#f2f7ff}.nav-btn:hover{background:#247cff;border-color:#247cff;color:#fff}
+.micro{color:#93b5ee}.hero h1 span{color:#f2f7ff;text-shadow:0 0 38px rgba(50,132,255,.14)}.hero h1 em{-webkit-text-stroke-color:#398aff;text-shadow:0 0 30px rgba(36,124,255,.25)}.hero-sub{color:#c8d8f5}.hero-meta,.scroll-mark{color:#91a5c7}.primary{color:#fff;background:#247cff;border-color:#4e9aff;box-shadow:0 0 0 1px rgba(172,208,255,.15),0 12px 35px rgba(13,89,230,.24)}.ghost{color:#f2f7ff}.hero-orbit{border-color:rgba(75,143,255,.28)}
+.section-no{color:#7095d5}.statement{background:linear-gradient(180deg,#070d1a,#080f22)}.statement-copy{color:#b5c4df}.statement-copy .small{color:#eaf2ff}
+.invite-section{background:radial-gradient(circle at 15% 50%,rgba(23,103,255,.12),transparent 32%),#060b16}.invite-frame{border-color:#d5a326;background:#f8f5eb;box-shadow:0 28px 88px rgba(0,0,0,.65),0 0 0 5px rgba(36,124,255,.13),0 0 55px rgba(36,124,255,.16)}.frame-label{background:#05060a;color:#83b2ff}.serif{color:#c8d8f5}.details span{color:#7da2df}.note{color:#aabbd8}
+.experience{background:#050914}.tile{background:linear-gradient(145deg,#0a1122,#070b14)}.tile p{color:#aabbd8}.final{background:radial-gradient(circle at 50% 48%,rgba(23,103,255,.11),transparent 35%)}.final-sign{color:#91a5c7}.final-sign strong{color:#eaf2ff}.final-ring{border-color:rgba(64,137,255,.33);box-shadow:0 0 85px rgba(36,124,255,.08)}footer{color:#7997ca}
+.primary:hover{box-shadow:0 0 0 1px rgba(193,219,255,.22),0 18px 45px rgba(26,110,255,.45)}.invite-frame:hover{box-shadow:0 35px 95px rgba(0,0,0,.7),0 0 0 5px rgba(36,124,255,.2),0 0 70px rgba(36,124,255,.28)}.tile:hover{background:linear-gradient(145deg,#101f42,#081329);box-shadow:inset 0 0 0 1px rgba(81,147,255,.22)}
+
+/* Finishing details: technical depth without distracting from the invitation. */
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:linear-gradient(rgba(82,145,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(82,145,255,.045) 1px,transparent 1px);background-size:72px 72px;mask-image:linear-gradient(to bottom,black,transparent 72%)}
+.hero:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,transparent 49.9%,rgba(82,145,255,.16) 50%,transparent 50.1%);opacity:.55}
+.invite-frame:before,.invite-frame:after{content:"";position:absolute;z-index:2;width:34px;height:34px;pointer-events:none;transition:width .3s ease,height .3s ease}.invite-frame:before{top:6px;left:6px;border-top:2px solid #247cff;border-left:2px solid #247cff}.invite-frame:after{right:6px;bottom:6px;border-right:2px solid #247cff;border-bottom:2px solid #247cff}.invite-frame:hover:before,.invite-frame:hover:after{width:52px;height:52px}
+.details div:first-child{border-top-color:rgba(103,160,255,.34)}.details strong{color:#e9f1ff}.tile{position:relative;overflow:hidden}.tile:before{content:"";position:absolute;top:0;left:35px;right:35px;height:1px;background:linear-gradient(90deg,transparent,rgba(73,141,255,.85),transparent)}
+.primary:focus-visible,.nav-btn:focus-visible{outline:2px solid #9bc5ff;outline-offset:4px}.nav-btn,.primary{transition:transform .3s ease,box-shadow .3s ease,background .3s ease,border-color .3s ease}
+@media(max-width:800px){.hero:before{background-size:46px 46px}.hero:after{display:none}.invite-frame:before,.invite-frame:after{width:24px;height:24px}.tile:before{left:24px;right:24px}}
+
+/* Hero signature: a brighter, dimensional treatment for the event name. */
+.hero h1 em{position:relative;isolation:isolate;margin-top:.035em;background:linear-gradient(110deg,#e5f3ff 0%,#83bdff 24%,#2d79ff 49%,#8cc5ff 72%,#dceeff 100%);background-size:180% 100%;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;-webkit-text-stroke:1px rgba(187,220,255,.68);filter:drop-shadow(0 0 14px rgba(36,124,255,.42)) drop-shadow(0 12px 22px rgba(0,0,0,.46));animation:freshersShimmer 5s ease-in-out infinite}
+.hero h1 em:after{content:"";position:absolute;z-index:-1;left:9%;right:9%;bottom:-.11em;height:1px;background:linear-gradient(90deg,transparent,rgba(138,193,255,.88) 18%,#247cff 50%,rgba(138,193,255,.88) 82%,transparent);box-shadow:0 0 15px rgba(36,124,255,.7)}
+@keyframes freshersShimmer{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+@media(prefers-reduced-motion:reduce){.hero h1 em{animation:none}}

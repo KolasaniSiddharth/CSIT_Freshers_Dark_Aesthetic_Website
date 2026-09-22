@@ -52,7 +52,7 @@ function animate(){
     p.x+=p.vx; p.y+=p.vy;
     if(p.x<0)p.x=canvas.width;if(p.x>canvas.width)p.x=0;
     if(p.y<0)p.y=canvas.height;if(p.y>canvas.height)p.y=0;
-    ctx.globalAlpha=p.a; ctx.fillStyle='#d4a0ad';
+    ctx.globalAlpha=p.a; ctx.fillStyle='#62a4ff';
     ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();
   });
   requestAnimationFrame(animate);
